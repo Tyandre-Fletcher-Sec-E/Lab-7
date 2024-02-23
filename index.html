@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 7</title>
+    <style>
+        body {
+            color:white;
+        }
+
+        #txt {
+            border-radius:5px;
+            border: 3px solid black;
+            width:200px;
+            margin:10px  20px 0 0;
+            height: 35px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        button {
+            color: black;
+            font-weight: bold;
+            margin-top:15px;
+            height: 35px;
+            width: 150px;
+            margin-right: 2px;
+            border: 3px solid black;
+        }
+
+        ul {
+            color: black;
+            list-style: none;
+
+        }
+
+        li {
+            font-size: 20px;
+            font-family: monospace;
+            margin-left: 30px;
+            text-align: center;
+        }
+
+        input {
+            padding-left:5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class = "center">
+        <input id = "txt" type="text" maxlength="50">
+        <button id = "addbtn">Add</button>
+        <button id = "removebtn">Remove</button>
+    </div>
+        
+    <ul id= "list">
+    </ul>
+    <script src="functions.js"></script>
+</body>
+</html>
